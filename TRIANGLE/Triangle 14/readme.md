@@ -1,1 +1,10 @@
-<h1 align="center"> E D C B A <br> E D C B <br> E D C <br> E D <br> E </h1>
+
+```
+
+    E D C B A 
+    E D C B 
+    E D C 
+    E D 
+    E 
+
+```
