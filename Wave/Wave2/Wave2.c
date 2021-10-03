@@ -12,7 +12,7 @@ void main(){
 			 printf("%02d",j);
 			 }
 			 else {
-			 printf(" ");
+			 printf("  ");
 			 }
 		 }
 		 x--;
