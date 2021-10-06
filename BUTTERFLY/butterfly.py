@@ -1,4 +1,4 @@
-n = int(input())
+n = int(input("Enter n: "))
 # upper half of the pattern
 for i in range(n):
     for j in range(2*n):
