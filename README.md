@@ -41,4 +41,6 @@
     *         *
 ```
 
-## Create a new folder if you want to add shape. 
+## Create a new folder if you want to add shape.
+
+### ⭐ the repo if you have made a PR ;)
