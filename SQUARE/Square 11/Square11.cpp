@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
+// Created a # square pattern
+int main()
+{
 // Printed a square with # characters
 int main()
 {
-    int size;
     cout << "\n\n Print a pattern like square with # character:\n";
     cout << "--------------------------------------------------\n";
     
