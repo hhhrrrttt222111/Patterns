@@ -32,6 +32,27 @@
     * * * * * 
 ```
  
+* ### [ButterFly](https://github.com/hhhrrrttt222111/Patterns/tree/main/SQUARE)
+```
+    *         *
+    * *     * *
+    * * * * * *
+    * *     * *
+    *         *
+```
+* ### [Fish](https://github.com/hhhrrrttt222111/Patterns/tree/main/FISH)
+```
+        *
+       ***
+      *****    *
+     *******  **
+    ************
+     *******  **
+      *****    *
+       ***
+        *
+```
 
+## Create a new folder if you want to add shape.
 
-## Create a new folder if you want to add shape. 
+### ⭐ the repo if you have made a PR ;)
