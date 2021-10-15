@@ -14,7 +14,9 @@ F         F
      
      
     
-Create a Daimond Numeric pattern to print thr following pattern:-
+
+Create a Daimond Numeric pattern to print the following pattern:-
+
 
          1
         212
