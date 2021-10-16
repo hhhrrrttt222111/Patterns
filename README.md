@@ -40,6 +40,18 @@
     * *     * *
     *         *
 ```
+* ### [Fish](https://github.com/hhhrrrttt222111/Patterns/tree/main/FISH)
+```
+        *
+       ***
+      *****    *
+     *******  **
+    ************
+     *******  **
+      *****    *
+       ***
+        *
+```
 
 ## Create a new folder if you want to add shape.
 
