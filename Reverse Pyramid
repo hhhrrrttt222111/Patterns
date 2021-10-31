@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int rowscount;
+
+    cout << "Enter number of rowscount you want your reverse pyramid to have: ";
+    cin >> rowscount;
+
+    for(int i = rowscount; i >= 1; --i) //  This outerloop will run as per the rowscount entered by user
+    {
+        for(int space = 0; space < rowscount-i; ++space)// this loop will print spaces
+            cout << "  ";
+
+        for(int j = i; j <= 2*i-1; ++j) // this loop will print the asteriks 
+            cout << "* ";
+
+        for(int j = 0; j < i-1; ++j) 
+            cout << "* ";
+
+        cout << endl;
+    }
+
+    return 0;
+} 
