@@ -1,0 +1,50 @@
+section .text
+
+global _start
+
+
+_start:
+
+mov     ecx, string
+        mov     edx, length
+        mov     ebx, 1
+        mov     eax, 4
+        int     0x80
+        mov ebx, string                                                 
+        mov eax, (string + length - 1)                                     
+
+        mov ecx, (length / 2)                        
+check:
+        mov dl, [ebx]                                   
+        cmp [eax], dl
+        jne failure
+        inc ebx
+        dec eax
+        loop check
+
+        ;; success                                                                  
+        mov     ecx, msg1
+        mov     edx, length1
+        mov     ebx, 1
+        mov     eax, 4
+        int     0x80
+        jmp done
+
+failure:
+       mov     ecx, msg2
+       mov     edx, length2
+       mov     ebx, 1
+       mov     eax, 4
+       int     0x80
+
+done:
+        ret
+        
+section .data
+        string db "malayalam"
+        length equ $ - string
+
+        msg1 db " is pallindrome",0
+        length1 equ $ - msg1
+        msg2 db " is not pallindrome",0
+        length2 equ $ - msg2
